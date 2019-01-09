@@ -65,12 +65,12 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<!-- <includes> <include>MyRunner.java</include> </includes> -->
-					<skipTests>true</skipTests>
+					<skipTests>false</skipTests>  <!-- true or false=it runs anyway -->
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>net.masterthought</groupId>
-				<artifactId>cucumber-reporting</artifactId>
+				<artifactId>maven-cucumber-reporting</artifactId>
 				<version>4.3.0</version>
 				<executions>
 					<execution>
